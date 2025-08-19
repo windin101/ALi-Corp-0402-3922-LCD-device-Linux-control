@@ -1,83 +1,84 @@
-# ALi LCD Device Project - Knowledge Index
+# ALi LCD Device Control
 
-This directory contains a comprehensive knowledge base for the ALi Corp 0402:3922 LCD device communication project. These documents capture all our findings, implementation details, and recommendations for working with the device.
+Linux communication library for the ALi Corp 0402:3922 LCD device.
 
-## Document Index
+## Overview
 
-1. **[Project Overview](00-project-overview.md)**
-   - High-level summary of the project, goals, and implementation status
-   - Quick facts and critical knowledge
+This project provides a robust implementation for communicating with the ALi Corp 0402:3922 LCD display device. The implementation is based on comprehensive reverse engineering of the device's protocol and behavior, documented in the [knowledge](knowledge/) directory.
 
-2. **[Device Specifications](01-device-specifications.md)**
-   - Hardware identification details
-   - Display specifications and capabilities
-   - Physical characteristics
+## Key Features
 
-3. **[USB Protocol Implementation](02-usb-protocol.md)**
-   - Mass Storage BOT protocol details
-   - Command Block Wrapper (CBW) structure
-   - Command Status Wrapper (CSW) structure
-   - Tag synchronization issues
+- **Lifecycle-Aware Communication**: Adapts to the device's four-state lifecycle for reliable operation
+- **Robust Tag Synchronization**: Handles tag synchronization issues with state-specific strategies
+- **Error Recovery**: Implements comprehensive error detection and recovery mechanisms
+- **Image Display**: Provides tools for converting and displaying images on the device
+- **Test Pattern Generation**: Includes utilities for generating test patterns
 
-4. **[Device Lifecycle States](03-lifecycle-states.md)**
-   - Four-state lifecycle model
-   - State characteristics and transition timing
-   - State-specific communication strategies
+## Installation
 
-5. **[SCSI Command Set](04-command-set.md)**
-   - Standard SCSI commands supported
-   - Custom F5 commands for display control
-   - Command formats and examples
-   - Initialization sequence
+### Prerequisites
 
-6. **[Error Handling Strategies](05-error-handling.md)**
-   - Common error types and causes
-   - Recovery strategies for each error type
-   - Implementation recommendations
-   - Code examples
+- Python 3.6 or higher
+- libusb development package
 
-7. **[Image Format and Display](06-image-format.md)**
-   - RGB565 color format details
-   - Image conversion techniques
-   - Display command format
-   - Performance considerations
+```bash
+# Ubuntu/Debian
+sudo apt install python3-dev python3-pip libusb-1.0-0-dev
 
-8. **[Implementation Guidelines](07-implementation-guidelines.md)**
-   - Architecture overview
-   - Core components design
-   - Threading model
-   - Usage examples
-   - Testing strategy
+# Install the package
+pip install -e .
+```
 
-9. **[Development History and Challenges](08-development-history.md)**
-   - Project timeline
-   - Major challenges encountered
-   - Investigation methods
-   - Solutions implemented
-   - Lessons learned
+For detailed installation instructions, see [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md).
 
-## Using This Knowledge Base
+## Quick Start
 
-This knowledge base is designed to provide both high-level understanding and detailed implementation guidance. For:
+```python
+from ali_lcd_device.device import ALiLCDDevice
 
-- **New Developers**: Start with the Project Overview and Device Specifications, then proceed to the Implementation Guidelines.
+# Connect to the device
+with ALiLCDDevice() as device:
+    device.connect(wait_for_stable=True)
+    device.initialize_display()
+    device.display_image('path/to/image.png')
+```
 
-- **Protocol Understanding**: Focus on the USB Protocol Implementation, Device Lifecycle States, and SCSI Command Set documents.
+## Project Structure
 
-- **Troubleshooting**: Refer to Error Handling Strategies and Development History and Challenges.
+- **src/ali_lcd_device/**: Core implementation
+  - **device.py**: Main device interface
+  - **lifecycle.py**: Lifecycle state management
+  - **usb_comm.py**: USB communication layer
+  - **commands.py**: SCSI command definitions
+  - **image_utils.py**: Image conversion utilities
 
-- **Implementation**: Use Implementation Guidelines along with the SCSI Command Set and Image Format documents.
+- **examples/**: Usage examples
+  - **basic_demo.py**: Simple demonstration
 
-## Integration with Source Code
+- **tests/**: Test suite
+  - **test_lifecycle_states.py**: Lifecycle state tests
+  - **test_tag_synchronization.py**: Tag synchronization tests
 
-The knowledge captured in these documents is implemented in the Python code under:
+- **knowledge/**: Comprehensive documentation
+  - **00-project-overview.md**: High-level project overview
+  - **01-device-specifications.md**: Device hardware details
+  - **02-usb-protocol.md**: USB protocol implementation
+  - **03-lifecycle-states.md**: Device lifecycle states
+  - **04-command-set.md**: SCSI command set details
+  - **05-error-handling.md**: Error handling strategies
+  - **06-image-format.md**: Image format and display
+  - **07-implementation-guidelines.md**: Implementation recommendations
+  - **08-development-history.md**: Project history and challenges
 
-- `src/ali_lcd_device/`: Main package
-- `scripts/`: Utility scripts
-- `tests/`: Test suite
+## Development
 
-The technical reference document `ALi_LCD_Technical_Reference.md` in the project root provides a comprehensive overview of all aspects of the device.
+See [ROADMAP.md](ROADMAP.md) for the development plan and timeline.
 
-## Conclusion
+## License
 
-This knowledge base represents the culmination of our research into the ALi Corp 0402:3922 LCD device. With this information, another team should be able to quickly understand the device's behavior and implement reliable communication without repeating our discovery process.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+- The reverse engineering and documentation team for their comprehensive analysis
+- The PyUSB project for providing the USB communication foundation

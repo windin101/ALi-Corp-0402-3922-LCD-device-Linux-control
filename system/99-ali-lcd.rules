@@ -1,0 +1,6 @@
+# udev rules for ALi LCD device
+# Copy this file to /etc/udev/rules.d/99-ali-lcd.rules
+# Then run: sudo udevadm control --reload-rules && sudo udevadm trigger
+
+# ALi Corp 0402:3922 LCD device
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0402", ATTRS{idProduct}=="3922", MODE="0666", GROUP="plugdev"
