@@ -6,6 +6,15 @@ Linux communication library for the ALi Corp 0402:3922 LCD device.
 
 This project provides a robust implementation for communicating with the ALi Corp 0402:3922 LCD display device. The implementation is based on comprehensive reverse engineering of the device's protocol and behavior, documented in the [knowledge](knowledge/) directory.
 
+## 🆕 NEW: Communication Sequence Analysis
+
+We've identified the successful communication pattern with the device based on Wireshark USB captures and binary file examination. Two new scripts have been added to replicate this pattern:
+
+- **scripts/replicate_sequence.py**: Implements the full lifecycle communication sequence
+- **scripts/replay_frames.py**: Specifically replays binary frames in the exact observed sequence
+
+See the [scripts README](scripts/README.md) for detailed usage instructions.
+
 ## Key Features
 
 - **Lifecycle-Aware Communication**: Adapts to the device's four-state lifecycle for reliable operation
@@ -15,7 +24,7 @@ This project provides a robust implementation for communicating with the ALi Cor
 - **Test Pattern Generation**: Includes utilities for generating test patterns
 - **USB Diagnostics**: Tools to diagnose and fix common USB issues
 
-## NEW: Simplified API and Tools
+## Simplified API and Tools
 
 We've added a new simplified API (`ali_lcd_api.py`) and a collection of diagnostic and test tools that make it easier to work with the ALi LCD device:
 
@@ -52,10 +61,14 @@ sudo python3 display_image.py --image /path/to/your/image.png
 
 - Python 3.6 or higher
 - libusb development package
+- PyUSB library
 
 ```bash
 # Ubuntu/Debian
 sudo apt install python3-dev python3-pip libusb-1.0-0-dev
+
+# Install required Python packages
+pip install pyusb Pillow
 
 # Install the package
 pip install -e .
@@ -87,6 +100,11 @@ with ALiLCDDevice() as device:
   - **commands.py**: SCSI command definitions
   - **image_utils.py**: Image conversion utilities
 
+- **scripts/**: Communication sequence replication
+  - **replicate_sequence.py**: Full lifecycle sequence implementation
+  - **replay_frames.py**: Binary frame replay utility
+  - **README.md**: Usage documentation
+
 - **tools/**: Diagnostic and utility tools
   - **usb_diagnostic.py**: USB diagnostic utility
   - **reset_usb_device.sh**: Script to reset USB devices
@@ -98,6 +116,39 @@ with ALiLCDDevice() as device:
 
 - **examples/**: Usage examples
   - **basic_demo.py**: Simple demonstration
+  - **advanced_demo.py**: More complex functionality
+  - **lifecycle_demo.py**: Demonstrates lifecycle state handling
+
+- **knowledge/**: Comprehensive documentation
+  - **00-project-overview.md**: Project overview and summary
+  - **01-device-specifications.md**: Hardware specifications
+  - **02-usb-protocol.md**: USB protocol details
+  - **03-lifecycle-states.md**: Device lifecycle states
+  - **04-command-set.md**: Supported SCSI commands
+  - **05-error-handling.md**: Error handling strategies
+  - **06-image-format.md**: Image format documentation
+  - **07-implementation-guidelines.md**: Implementation guidelines
+  - **08-development-history.md**: Development history and challenges
+  - **09-communication-sequence.md**: 🆕 Analysis of successful communication sequence
+
+## Documentation
+
+Detailed documentation is available in the [knowledge](knowledge/) directory:
+
+- [Project Overview](knowledge/00-project-overview.md)
+- [Device Specifications](knowledge/01-device-specifications.md)
+- [USB Protocol](knowledge/02-usb-protocol.md)
+- [Lifecycle States](knowledge/03-lifecycle-states.md)
+- [Command Set](knowledge/04-command-set.md)
+- [Error Handling](knowledge/05-error-handling.md)
+- [Image Format](knowledge/06-image-format.md)
+- [Implementation Guidelines](knowledge/07-implementation-guidelines.md)
+- [Development History](knowledge/08-development-history.md)
+- [Communication Sequence Analysis](knowledge/09-communication-sequence.md) 🆕
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 - **tests/**: Test suite
   - **test_lifecycle_states.py**: Lifecycle state tests

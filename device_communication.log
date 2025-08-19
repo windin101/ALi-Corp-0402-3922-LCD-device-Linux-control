@@ -1,0 +1,1903 @@
+2025-08-19 18:33:57,084 - __main__ - INFO - ALi LCD Display Communication Tool
+2025-08-19 18:33:57,084 - __main__ - INFO - Starting at 2025-08-19 18:33:57
+2025-08-19 18:33:57,084 - __main__ - INFO - Looking for USB device 0402:3922...
+2025-08-19 18:33:57,098 - __main__ - INFO - Device found
+2025-08-19 18:33:59,556 - __main__ - INFO - USB device connected and interface claimed
+2025-08-19 18:33:59,556 - __main__ - INFO - Starting device stabilization phase (90 seconds)...
+2025-08-19 18:33:59,557 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:33:59,557 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:33:59,557 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:33:59,557 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:33:59,557 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:00,057 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:00,057 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:00,058 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:00,058 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:00,058 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:00,558 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:00,558 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:00,558 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:00,559 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:00,559 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:01,059 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:01,059 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:01,059 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:01,060 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:01,060 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:01,560 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:01,560 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:01,560 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:01,561 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:01,561 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:02,061 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:02,061 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:02,061 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:02,061 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:02,061 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:02,561 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:02,562 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:02,562 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:02,562 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:02,562 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:03,062 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:03,063 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:03,063 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:03,063 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:03,063 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:03,563 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:03,564 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:03,564 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:03,564 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:03,564 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:04,064 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:04,064 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:04,064 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:04,065 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:04,065 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:04,565 - __main__ - INFO - Stabilization progress: 5.0s elapsed, 85.0s remaining, 0/10 successful
+2025-08-19 18:34:04,565 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:04,565 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:04,565 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:04,566 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:04,566 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:05,066 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:05,066 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:05,066 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:05,066 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:05,067 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:05,567 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:05,567 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:05,567 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:05,567 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:05,567 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:06,067 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:06,068 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:06,068 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:06,068 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:06,068 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:06,568 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:06,568 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:06,569 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:06,569 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:06,569 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:07,069 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:07,069 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:07,069 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:07,070 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:07,070 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:07,570 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:07,570 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:07,570 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:07,571 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:07,571 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:08,071 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:08,071 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:08,071 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:08,072 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:08,072 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:08,572 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:08,572 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:08,572 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:08,572 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:08,572 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:09,073 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:09,073 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:09,073 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:09,073 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:09,073 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:09,573 - __main__ - INFO - Stabilization progress: 10.0s elapsed, 80.0s remaining, 0/10 successful
+2025-08-19 18:34:09,574 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:09,574 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:09,574 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:09,574 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:09,574 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:10,074 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:10,075 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:10,075 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:10,075 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:10,075 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:10,575 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:10,575 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:10,575 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:10,576 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:10,576 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:11,076 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:11,076 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:11,076 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:11,077 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:11,077 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:11,577 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:11,577 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:11,577 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:11,578 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:11,578 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:12,078 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:12,078 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:12,078 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:12,078 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:12,078 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:12,579 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:12,579 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:12,579 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:12,579 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:12,579 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:13,079 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:13,080 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:13,080 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:13,080 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:13,080 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:13,580 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:13,580 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:13,580 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:13,581 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:13,581 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:14,081 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:14,081 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:14,081 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:14,082 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:14,082 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:14,582 - __main__ - INFO - Stabilization progress: 15.0s elapsed, 75.0s remaining, 0/10 successful
+2025-08-19 18:34:14,582 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:14,582 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:14,582 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:14,583 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:14,583 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:15,083 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:15,083 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:15,083 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:15,084 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:15,084 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:15,584 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:15,584 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:15,584 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:15,584 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:15,584 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:16,084 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:16,085 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:16,085 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:16,085 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:16,085 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:16,585 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:16,585 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:16,586 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:16,586 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:16,586 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:17,086 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:17,086 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:17,087 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:17,087 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:17,087 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:17,587 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:17,587 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:17,587 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:17,588 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:17,588 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:18,088 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:18,088 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:18,088 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:18,089 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:18,089 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:18,589 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:18,589 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:18,589 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:18,589 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:18,589 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:19,090 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:19,090 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:19,090 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:19,090 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:19,090 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:19,590 - __main__ - INFO - Stabilization progress: 20.0s elapsed, 70.0s remaining, 0/10 successful
+2025-08-19 18:34:19,591 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:19,591 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:19,591 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:19,591 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:19,591 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:20,091 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:20,092 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:20,092 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:20,092 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:20,092 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:20,592 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:20,592 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:20,592 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:20,593 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:20,593 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:21,093 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:21,093 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:21,093 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:21,094 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:21,094 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:21,594 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:21,594 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:21,594 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:21,595 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:21,595 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:22,095 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:22,095 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:22,095 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:22,095 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:22,095 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:22,596 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:22,596 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:22,596 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:22,596 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:22,596 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:23,096 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:23,097 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:23,097 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:23,097 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:23,097 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:23,597 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:23,597 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:23,597 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:23,598 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:23,598 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:24,098 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:24,098 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:24,098 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:24,099 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:24,099 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:24,599 - __main__ - INFO - Stabilization progress: 25.0s elapsed, 65.0s remaining, 0/10 successful
+2025-08-19 18:34:24,599 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:24,599 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:24,599 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:24,600 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:24,600 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:25,100 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:25,100 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:25,100 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:25,100 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:25,101 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:25,601 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:25,601 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:25,601 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:25,601 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:25,601 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:26,101 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:26,102 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:26,102 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:26,102 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:26,102 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:26,602 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:26,603 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:26,603 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:26,603 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:26,603 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:27,103 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:27,103 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:27,104 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:27,104 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:27,104 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:27,604 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:27,604 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:27,604 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:27,605 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:27,605 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:28,105 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:28,105 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:28,105 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:28,106 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:28,106 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:28,606 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:28,606 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:28,606 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:28,606 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:28,606 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:29,107 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:29,107 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:29,107 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:29,107 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:29,107 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:29,607 - __main__ - INFO - Stabilization progress: 30.1s elapsed, 59.9s remaining, 0/10 successful
+2025-08-19 18:34:29,608 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:29,608 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:29,608 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:29,608 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:29,608 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:30,108 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:30,108 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:30,109 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:30,109 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:30,109 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:30,609 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:30,609 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:30,609 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:30,610 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:30,610 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:31,110 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:31,110 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:31,110 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:31,111 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:31,111 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:31,611 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:31,611 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:31,611 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:31,612 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:31,612 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:32,112 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:32,112 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:32,112 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:32,112 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:32,112 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:32,613 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:32,613 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:32,613 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:32,613 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:32,613 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:33,113 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:33,114 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:33,114 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:33,114 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:33,114 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:33,614 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:33,614 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:33,615 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:33,615 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:33,615 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:34,115 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:34,115 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:34,115 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:34,116 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:34,116 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:34,616 - __main__ - INFO - Stabilization progress: 35.1s elapsed, 54.9s remaining, 0/10 successful
+2025-08-19 18:34:34,616 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:34,616 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:34,616 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:34,617 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:34,617 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:35,117 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:35,117 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:35,117 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:35,117 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:35,118 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:35,618 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:35,618 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:35,618 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:35,618 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:35,618 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:36,118 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:36,119 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:36,119 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:36,119 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:36,119 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:36,619 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:36,619 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:36,620 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:36,620 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:36,620 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:37,120 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:37,120 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:37,121 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:37,121 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:37,121 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:37,621 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:37,621 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:37,621 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:37,622 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:37,622 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:38,122 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:38,122 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:38,122 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:38,123 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:38,123 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:38,623 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:38,623 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:38,623 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:38,623 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:38,624 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:39,124 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:39,124 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:39,124 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:39,124 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:39,124 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:39,624 - __main__ - INFO - Stabilization progress: 40.1s elapsed, 49.9s remaining, 0/10 successful
+2025-08-19 18:34:39,624 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:39,625 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:39,625 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:39,625 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:39,625 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:40,125 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:40,126 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:40,126 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:40,126 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:40,126 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:40,626 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:40,626 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:40,626 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:40,627 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:40,627 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:41,127 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:41,127 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:41,127 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:41,128 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:41,128 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:41,628 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:41,628 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:41,628 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:41,629 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:41,629 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:42,129 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:42,129 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:42,129 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:42,129 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:42,129 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:42,630 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:42,630 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:42,630 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:42,630 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:42,630 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:43,130 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:43,130 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:43,130 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:43,131 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:43,131 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:43,631 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:43,631 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:43,631 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:43,632 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:43,632 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:44,132 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:44,132 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:44,132 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:44,133 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:44,133 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:44,633 - __main__ - INFO - Stabilization progress: 45.1s elapsed, 44.9s remaining, 0/10 successful
+2025-08-19 18:34:44,633 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:44,633 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:44,633 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:44,634 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:44,634 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:45,134 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:45,134 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:45,134 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:45,135 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:45,135 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:45,635 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:45,635 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:45,635 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:45,635 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:45,635 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:46,135 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:46,136 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:46,136 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:46,136 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:46,136 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:46,636 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:46,636 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:46,636 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:46,637 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:46,637 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:47,137 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:47,137 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:47,137 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:47,138 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:47,138 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:47,638 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:47,638 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:47,638 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:47,639 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:47,639 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:48,139 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:48,139 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:48,139 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:48,140 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:48,140 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:48,640 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:48,640 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:48,640 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:48,640 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:48,640 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:49,141 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:49,141 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:49,141 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:49,141 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:49,141 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:49,642 - __main__ - INFO - Stabilization progress: 50.1s elapsed, 39.9s remaining, 0/10 successful
+2025-08-19 18:34:49,642 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:49,642 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:49,642 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:49,642 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:49,642 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:50,142 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:50,143 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:50,143 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:50,143 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:50,143 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:50,643 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:50,643 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:50,643 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:50,644 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:50,644 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:51,144 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:51,144 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:51,144 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:51,145 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:51,145 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:51,645 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:51,645 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:51,645 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:51,646 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:51,646 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:52,146 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:52,146 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:52,146 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:52,146 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:52,146 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:52,647 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:52,647 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:52,647 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:52,648 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:52,648 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:53,148 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:53,149 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:53,149 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:53,149 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:53,149 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:53,649 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:53,649 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:53,649 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:53,650 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:53,650 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:54,150 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:54,150 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:54,150 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:54,151 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:54,151 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:54,651 - __main__ - INFO - Stabilization progress: 55.1s elapsed, 34.9s remaining, 0/10 successful
+2025-08-19 18:34:54,651 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:54,651 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:54,651 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:54,652 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:54,652 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:55,152 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:55,152 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:55,152 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:55,152 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:55,153 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:55,653 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:55,653 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:55,653 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:55,653 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:55,653 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:56,154 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:56,154 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:56,154 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:56,154 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:56,154 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:56,654 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:56,655 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:56,655 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:56,655 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:56,655 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:57,155 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:57,155 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:57,155 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:57,156 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:57,156 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:57,656 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:57,656 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:57,656 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:57,657 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:57,657 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:58,157 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:58,157 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:58,157 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:58,158 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:58,158 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:58,658 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:58,658 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:58,658 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:58,658 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:58,659 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:59,159 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:59,159 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:59,159 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:59,159 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:59,159 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:34:59,659 - __main__ - INFO - Stabilization progress: 60.1s elapsed, 29.9s remaining, 0/10 successful
+2025-08-19 18:34:59,659 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:34:59,660 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:34:59,660 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:34:59,660 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:34:59,660 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:00,160 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:00,161 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:00,161 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:00,161 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:00,161 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:00,661 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:00,661 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:00,661 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:00,662 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:00,662 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:01,162 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:01,162 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:01,162 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:01,163 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:01,163 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:01,663 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:01,663 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:01,663 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:01,664 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:01,664 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:02,164 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:02,164 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:02,164 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:02,164 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:02,164 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:02,664 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:02,665 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:02,665 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:02,665 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:02,665 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:03,165 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:03,166 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:03,166 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:03,166 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:03,166 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:03,666 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:03,666 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:03,666 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:03,667 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:03,667 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:04,167 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:04,167 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:04,167 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:04,168 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:04,168 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:04,668 - __main__ - INFO - Stabilization progress: 65.1s elapsed, 24.9s remaining, 0/10 successful
+2025-08-19 18:35:04,668 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:04,668 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:04,668 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:04,669 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:04,669 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:05,169 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:05,169 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:05,169 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:05,169 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:05,169 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:05,670 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:05,670 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:05,670 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:05,670 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:05,670 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:06,170 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:06,171 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:06,171 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:06,171 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:06,171 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:06,671 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:06,671 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:06,671 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:06,672 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:06,672 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:07,172 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:07,172 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:07,172 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:07,173 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:07,173 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:07,673 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:07,673 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:07,673 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:07,674 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:07,674 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:08,174 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:08,174 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:08,174 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:08,175 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:08,175 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:08,675 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:08,675 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:08,675 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:08,675 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:08,675 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:09,176 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:09,176 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:09,176 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:09,176 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:09,176 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:09,676 - __main__ - INFO - Stabilization progress: 70.1s elapsed, 19.9s remaining, 0/10 successful
+2025-08-19 18:35:09,676 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:09,677 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:09,677 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:09,677 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:09,677 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:10,177 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:10,177 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:10,177 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:10,178 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:10,178 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:10,678 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:10,678 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:10,678 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:10,679 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:10,679 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:11,179 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:11,179 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:11,179 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:11,180 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:11,180 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:11,680 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:11,680 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:11,680 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:11,681 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:11,681 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:12,181 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:12,181 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:12,181 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:12,181 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:12,181 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:12,682 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:12,682 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:12,682 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:12,682 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:12,682 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:13,182 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:13,182 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:13,183 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:13,183 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:13,183 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:13,683 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:13,683 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:13,683 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:13,684 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:13,684 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:14,184 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:14,184 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:14,184 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:14,185 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:14,185 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:14,685 - __main__ - INFO - Stabilization progress: 75.1s elapsed, 14.9s remaining, 0/10 successful
+2025-08-19 18:35:14,685 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:14,685 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:14,685 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:14,686 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:14,686 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:15,186 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:15,186 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:15,186 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:15,186 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:15,186 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:15,687 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:15,687 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:15,687 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:15,687 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:15,687 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:16,187 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:16,188 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:16,188 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:16,188 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:16,188 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:16,688 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:16,688 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:16,688 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:16,689 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:16,689 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:17,189 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:17,189 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:17,189 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:17,190 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:17,190 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:17,690 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:17,690 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:17,690 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:17,691 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:17,691 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:18,191 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:18,191 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:18,191 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:18,192 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:18,192 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:18,692 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:18,692 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:18,692 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:18,692 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:18,692 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:19,193 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:19,193 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:19,193 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:19,193 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:19,193 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:19,693 - __main__ - INFO - Stabilization progress: 80.1s elapsed, 9.9s remaining, 0/10 successful
+2025-08-19 18:35:19,694 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:19,694 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:19,694 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:19,694 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:19,694 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:20,194 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:20,194 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:20,194 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:20,195 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:20,195 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:20,695 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:20,695 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:20,695 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:20,696 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:20,696 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:21,196 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:21,196 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:21,196 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:21,197 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:21,197 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:21,697 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:21,697 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:21,697 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:21,698 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:21,698 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:22,198 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:22,198 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:22,198 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:22,198 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:22,198 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:22,699 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:22,699 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:22,699 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:22,699 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:22,699 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:23,199 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:23,200 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:23,200 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:23,200 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:23,200 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:23,700 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:23,700 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:23,700 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:23,701 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:23,701 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:24,201 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:24,201 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:24,201 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:24,202 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:24,202 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:24,702 - __main__ - INFO - Stabilization progress: 85.1s elapsed, 4.9s remaining, 0/10 successful
+2025-08-19 18:35:24,702 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:24,702 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:24,702 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:24,703 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:24,703 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:25,203 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:25,203 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:25,203 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:25,203 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:25,203 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:25,704 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:25,704 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:25,704 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:25,704 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:25,704 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:26,204 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:26,205 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:26,205 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:26,205 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:26,205 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:26,705 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:26,705 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:26,705 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:26,706 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:26,706 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:27,206 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:27,206 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:27,206 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:27,207 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:27,207 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:27,707 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:27,707 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:27,707 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:27,708 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:27,708 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:28,208 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:28,208 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:28,208 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:28,209 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:28,209 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:28,709 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:28,709 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:28,709 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:28,709 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:28,709 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:29,210 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:29,210 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:29,210 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:29,210 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:35:29,210 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:35:29,710 - __main__ - INFO - Stabilization complete: 180 commands sent, 0.0% success rate
+2025-08-19 18:35:29,710 - __main__ - WARNING - Device may not be in a fully stable state yet
+2025-08-19 18:35:29,710 - __main__ - WARNING - Device stabilization incomplete, continuing anyway
+2025-08-19 18:35:29,711 - __main__ - INFO - Sending enhanced initialization sequence...
+2025-08-19 18:35:29,711 - __main__ - INFO - Waiting 3 more seconds to ensure device is ready...
+2025-08-19 18:35:32,711 - __main__ - INFO - Sending direct F5 01 command (Initialize Display) command...
+2025-08-19 18:35:33,711 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:33,711 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:35:33,711 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:33,721 - __main__ - WARNING - USB Error on read attempt 1/5: [Errno 32] Pipe error
+2025-08-19 18:35:33,721 - __main__ - DEBUG - Retrying read in 0.5 seconds...
+2025-08-19 18:35:34,221 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:34,222 - __main__ - WARNING - USB Error on read attempt 2/5: [Errno 32] Pipe error
+2025-08-19 18:35:34,222 - __main__ - DEBUG - Retrying read in 1 seconds...
+2025-08-19 18:35:35,222 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:35,223 - __main__ - WARNING - USB Error on read attempt 3/5: [Errno 32] Pipe error
+2025-08-19 18:35:35,223 - __main__ - DEBUG - Retrying read in 2 seconds...
+2025-08-19 18:35:37,223 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:37,223 - __main__ - WARNING - USB Error on read attempt 4/5: [Errno 32] Pipe error
+2025-08-19 18:35:37,223 - __main__ - DEBUG - Retrying read in 4 seconds...
+2025-08-19 18:35:41,223 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:35:41,224 - __main__ - WARNING - USB Error on read attempt 5/5: [Errno 32] Pipe error
+2025-08-19 18:35:41,224 - __main__ - ERROR - Failed to read from device after multiple attempts
+2025-08-19 18:35:41,224 - __main__ - WARNING - Failed to read CSW
+2025-08-19 18:35:41,224 - __main__ - WARNING - Warning: F5 01 command (Initialize Display) command failed with status None
+2025-08-19 18:35:41,224 - __main__ - INFO - Waiting 5 seconds for device to process F5 01 command (Initialize Display) command...
+2025-08-19 18:35:46,224 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:35:46,224 - __main__ - WARNING - USB Error on write attempt 1/5: [Errno 19] No such device (it may have been disconnected)
+2025-08-19 18:35:46,225 - __main__ - WARNING - Device disconnected
+2025-08-19 18:35:46,225 - __main__ - WARNING - Failed to send command
+2025-08-19 18:35:46,225 - __main__ - WARNING - Device not responsive after F5 01 command (Initialize Display) command
+2025-08-19 18:35:46,225 - __main__ - ERROR - Failed to initialize display (F5 01)
+2025-08-19 18:35:46,225 - __main__ - WARNING - Error releasing interface: [Errno 19] No such device (it may have been disconnected)
+2025-08-19 18:35:46,225 - __main__ - INFO - Disconnected from USB device
+2025-08-19 18:35:46,225 - __main__ - INFO - Program complete
+2025-08-19 18:36:38,840 - __main__ - INFO - ALi LCD Display Communication Tool
+2025-08-19 18:36:38,841 - __main__ - INFO - Starting at 2025-08-19 18:36:38
+2025-08-19 18:36:38,841 - __main__ - INFO - Looking for USB device 0402:3922...
+2025-08-19 18:36:38,854 - __main__ - INFO - Device found
+2025-08-19 18:36:41,306 - __main__ - INFO - USB device connected and interface claimed
+2025-08-19 18:36:41,306 - __main__ - INFO - Starting device stabilization phase (90 seconds)...
+2025-08-19 18:36:41,306 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:41,307 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:41,307 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:41,307 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:41,307 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:41,807 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:41,807 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:41,807 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:41,808 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:41,808 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:42,308 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:42,308 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:42,308 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:42,309 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:42,309 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:42,809 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:42,809 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:42,809 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:42,809 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:42,810 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:43,310 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:43,310 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:43,310 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:43,310 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:43,310 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:43,810 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:43,811 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:43,811 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:43,811 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:43,811 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:44,311 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:44,312 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:44,312 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:44,312 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:44,312 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:44,812 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:44,812 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:44,812 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:44,813 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:44,813 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:45,313 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:45,313 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:45,313 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:45,314 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:45,314 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:45,814 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:45,814 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:45,814 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:45,815 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:45,815 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:46,315 - __main__ - INFO - Stabilization progress: 5.0s elapsed, 85.0s remaining, 0/10 successful
+2025-08-19 18:36:46,315 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:46,315 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:46,315 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:46,315 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:46,315 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:46,816 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:46,816 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:46,816 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:46,816 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:46,816 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:47,316 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:47,317 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:47,317 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:47,317 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:47,317 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:47,817 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:47,818 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:47,818 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:47,818 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:47,818 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:48,318 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:48,318 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:48,318 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:48,319 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:48,319 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:48,819 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:48,819 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:48,819 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:48,820 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:48,820 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:49,320 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:49,320 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:49,320 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:49,321 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:49,321 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:49,821 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:49,821 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:49,821 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:49,822 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:49,822 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:50,323 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:50,323 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:50,323 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:50,323 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:50,323 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:50,823 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:50,824 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:50,824 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:50,824 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:50,824 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:51,324 - __main__ - INFO - Stabilization progress: 10.0s elapsed, 80.0s remaining, 0/10 successful
+2025-08-19 18:36:51,324 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:51,324 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:51,324 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:51,325 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:51,325 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:51,825 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:51,825 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:51,825 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:51,826 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:51,826 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:52,326 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:52,326 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:52,326 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:52,327 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:52,327 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:52,827 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:52,827 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:52,827 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:52,827 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:52,828 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:53,328 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:53,328 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:53,328 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:53,328 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:53,328 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:53,828 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:53,829 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:53,829 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:53,829 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:53,829 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:54,329 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:54,330 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:54,330 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:54,330 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:54,330 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:54,830 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:54,830 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:54,830 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:54,831 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:54,831 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:55,331 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:55,331 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:55,331 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:55,332 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:55,332 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:55,832 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:55,832 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:55,832 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:55,833 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:55,833 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:56,333 - __main__ - INFO - Stabilization progress: 15.0s elapsed, 75.0s remaining, 0/10 successful
+2025-08-19 18:36:56,333 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:56,333 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:56,333 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:56,333 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:56,333 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:56,834 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:56,834 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:56,834 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:56,834 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:56,834 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:57,334 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:57,335 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:57,335 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:57,335 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:57,335 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:57,835 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:57,835 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:57,835 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:57,836 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:57,836 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:58,336 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:58,336 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:58,336 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:58,337 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:58,337 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:58,837 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:58,837 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:58,837 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:58,838 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:58,838 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:59,338 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:59,338 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:59,338 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:59,339 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:59,339 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:36:59,839 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:36:59,839 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:36:59,839 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:36:59,839 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:36:59,839 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:00,340 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:00,340 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:00,340 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:00,340 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:00,340 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:00,840 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:00,841 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:00,841 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:00,841 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:00,841 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:01,341 - __main__ - INFO - Stabilization progress: 20.0s elapsed, 70.0s remaining, 0/10 successful
+2025-08-19 18:37:01,341 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:01,341 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:01,341 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:01,342 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:01,342 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:01,842 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:01,842 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:01,842 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:01,843 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:01,843 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:02,343 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:02,343 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:02,343 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:02,344 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:02,344 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:02,844 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:02,844 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:02,844 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:02,844 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:02,844 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:03,345 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:03,345 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:03,345 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:03,345 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:03,345 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:03,845 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:03,846 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:03,846 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:03,846 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:03,846 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:04,346 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:04,346 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:04,347 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:04,347 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:04,347 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:04,847 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:04,847 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:04,847 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:04,848 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:04,848 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:05,348 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:05,348 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:05,348 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:05,349 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:05,349 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:05,849 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:05,849 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:05,849 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:05,850 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:05,850 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:06,350 - __main__ - INFO - Stabilization progress: 25.0s elapsed, 65.0s remaining, 0/10 successful
+2025-08-19 18:37:06,350 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:06,350 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:06,350 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:06,350 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:06,350 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:06,851 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:06,851 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:06,851 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:06,851 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:06,851 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:07,351 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:07,352 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:07,352 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:07,352 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:07,352 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:07,852 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:07,852 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:07,852 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:07,853 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:07,853 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:08,353 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:08,353 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:08,353 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:08,354 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:08,354 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:08,854 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:08,854 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:08,854 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:08,855 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:08,855 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:09,355 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:09,355 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:09,355 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:09,355 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:09,356 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:09,856 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:09,856 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:09,856 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:09,856 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:09,856 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:10,356 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:10,357 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:10,357 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:10,357 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:10,357 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:10,857 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:10,858 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:10,858 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:10,858 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:10,858 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:11,358 - __main__ - INFO - Stabilization progress: 30.1s elapsed, 59.9s remaining, 0/10 successful
+2025-08-19 18:37:11,358 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:11,358 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:11,358 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:11,359 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:11,359 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:11,859 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:11,859 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:11,859 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:11,860 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:11,860 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:12,360 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:12,360 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:12,360 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:12,361 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:12,361 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:12,861 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:12,861 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:12,861 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:12,861 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:12,861 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:13,362 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:13,362 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:13,362 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:13,362 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:13,362 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:13,862 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:13,863 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:13,863 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:13,863 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:13,863 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:14,363 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:14,363 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:14,364 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:14,364 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:14,364 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:14,864 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:14,864 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:14,864 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:14,865 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:14,865 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:15,365 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:15,365 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:15,365 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:15,366 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:15,366 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:15,866 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:15,866 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:15,866 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:15,867 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:15,867 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:16,367 - __main__ - INFO - Stabilization progress: 35.1s elapsed, 54.9s remaining, 0/10 successful
+2025-08-19 18:37:16,367 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:16,367 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:16,367 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:16,367 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:16,367 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:16,868 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:16,868 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:16,868 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:16,868 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:16,868 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:17,368 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:17,369 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:17,369 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:17,369 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:17,369 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:17,869 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:17,869 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:17,869 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:17,870 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:17,870 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:18,370 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:18,370 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:18,370 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:18,371 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:18,371 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:18,871 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:18,871 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:18,871 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:18,872 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:18,872 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:19,372 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:19,372 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:19,372 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:19,372 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:19,373 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:19,873 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:19,873 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:19,873 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:19,873 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:19,873 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:20,373 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:20,374 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:20,374 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:20,374 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:20,374 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:20,874 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:20,875 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:20,875 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:20,875 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:20,875 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:21,375 - __main__ - INFO - Stabilization progress: 40.1s elapsed, 49.9s remaining, 0/10 successful
+2025-08-19 18:37:21,375 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:21,376 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:21,376 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:21,376 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:21,376 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:21,876 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:21,876 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:21,876 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:21,877 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:21,877 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:22,377 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:22,377 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:22,377 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:22,378 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:22,378 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:22,878 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:22,878 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:22,878 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:22,878 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:22,878 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:23,379 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:23,379 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:23,379 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:23,379 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:23,379 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:23,879 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:23,880 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:23,880 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:23,880 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:23,880 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:24,380 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:24,380 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:24,380 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:24,381 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:24,381 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:24,881 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:24,881 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:24,881 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:24,882 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:24,882 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:25,382 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:25,382 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:25,382 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:25,383 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:25,383 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:25,883 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:25,883 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:25,883 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:25,883 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:25,884 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:26,384 - __main__ - INFO - Stabilization progress: 45.1s elapsed, 44.9s remaining, 0/10 successful
+2025-08-19 18:37:26,384 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:26,384 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:26,384 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:26,384 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:26,384 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:26,885 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:26,885 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:26,885 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:26,885 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:26,885 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:27,385 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:27,386 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:27,386 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:27,386 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:27,386 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:27,886 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:27,886 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:27,886 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:27,887 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:27,887 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:28,387 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:28,387 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:28,387 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:28,388 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:28,388 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:28,888 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:28,888 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:28,888 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:28,889 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:28,889 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:29,389 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:29,389 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:29,389 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:29,389 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:29,389 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:29,890 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:29,890 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:29,890 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:29,890 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:29,890 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:30,390 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:30,391 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:30,391 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:30,391 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:30,391 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:30,891 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:30,892 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:30,892 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:30,892 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:30,892 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:31,392 - __main__ - INFO - Stabilization progress: 50.1s elapsed, 39.9s remaining, 0/10 successful
+2025-08-19 18:37:31,392 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:31,392 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:31,392 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:31,393 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:31,393 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:31,893 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:31,893 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:31,893 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:31,894 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:31,894 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:32,394 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:32,394 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:32,394 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:32,395 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:32,395 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:32,895 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:32,895 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:32,895 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:32,895 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:32,895 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:33,396 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:33,396 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:33,396 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:33,396 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:33,396 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:33,896 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:33,897 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:33,897 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:33,897 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:33,897 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:34,397 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:34,397 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:34,397 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:34,398 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:34,398 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:34,898 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:34,898 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:34,898 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:34,899 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:34,899 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:35,399 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:35,399 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:35,399 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:35,400 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:35,400 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:35,900 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:35,900 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:35,900 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:35,900 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:35,900 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:36,401 - __main__ - INFO - Stabilization progress: 55.1s elapsed, 34.9s remaining, 0/10 successful
+2025-08-19 18:37:36,401 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:36,401 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:36,401 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:36,401 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:36,401 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:36,901 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:36,902 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:36,902 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:36,902 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:36,902 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:37,402 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:37,402 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:37,403 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:37,403 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:37,403 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:37,903 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:37,903 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:37,903 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:37,904 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:37,904 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:38,404 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:38,404 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:38,404 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:38,405 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:38,405 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:38,905 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:38,905 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:38,905 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:38,906 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:38,906 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:39,406 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:39,406 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:39,406 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:39,406 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:39,406 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:39,907 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:39,907 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:39,907 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:39,907 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:39,907 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:40,407 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:40,408 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:40,408 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:40,408 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:40,408 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:40,908 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:40,909 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:40,909 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:40,909 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:40,909 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:41,409 - __main__ - INFO - Stabilization progress: 60.1s elapsed, 29.9s remaining, 0/10 successful
+2025-08-19 18:37:41,409 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:41,409 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:41,409 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:41,410 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:41,410 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:41,910 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:41,910 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:41,910 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:41,911 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:41,911 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:42,411 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:42,411 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:42,411 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:42,412 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:42,412 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:42,912 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:42,912 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:42,912 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:42,912 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:42,912 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:43,413 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:43,413 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:43,413 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:43,413 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:43,413 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:43,913 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:43,914 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:43,914 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:43,914 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:43,914 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:44,414 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:44,414 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:44,414 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:44,415 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:44,415 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:44,915 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:44,915 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:44,915 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:44,916 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:44,916 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:45,416 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:45,416 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:45,416 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:45,417 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:45,417 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:45,917 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:45,917 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:45,917 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:45,917 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:45,917 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:46,418 - __main__ - INFO - Stabilization progress: 65.1s elapsed, 24.9s remaining, 0/10 successful
+2025-08-19 18:37:46,418 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:46,418 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:46,418 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:46,418 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:46,418 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:46,919 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:46,919 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:46,919 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:46,919 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:46,919 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:47,419 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:47,419 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:47,420 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:47,420 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:47,420 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:47,920 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:47,920 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:47,920 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:47,921 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:47,921 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:48,421 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:48,421 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:48,421 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:48,422 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:48,422 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:48,922 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:48,922 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:48,922 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:48,923 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:48,923 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:49,423 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:49,423 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:49,423 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:49,423 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:49,423 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:49,924 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:49,924 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:49,924 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:49,924 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:49,924 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:50,424 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:50,425 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:50,425 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:50,425 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:50,425 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:50,925 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:50,925 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:50,926 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:50,926 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:50,926 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:51,426 - __main__ - INFO - Stabilization progress: 70.1s elapsed, 19.9s remaining, 0/10 successful
+2025-08-19 18:37:51,426 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:51,426 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:51,426 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:51,427 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:51,427 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:51,927 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:51,927 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:51,927 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:51,928 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:51,928 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:52,428 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:52,428 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:52,428 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:52,428 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:52,428 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:52,929 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:52,929 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:52,929 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:52,929 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:52,929 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:53,429 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:53,430 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:53,430 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:53,430 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:53,430 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:53,930 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:53,931 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:53,931 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:53,931 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:53,931 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:54,431 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:54,431 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:54,432 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:54,432 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:54,432 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:54,932 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:54,932 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:54,932 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:54,933 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:54,933 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:55,433 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:55,462 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:55,462 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:55,463 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:55,463 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:55,963 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:55,963 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:55,963 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:55,963 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:55,963 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:56,464 - __main__ - INFO - Stabilization progress: 75.2s elapsed, 14.8s remaining, 0/10 successful
+2025-08-19 18:37:56,464 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:56,464 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:56,464 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:56,464 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:56,464 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:56,964 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:56,965 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:56,965 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:56,965 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:56,965 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:57,465 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:57,465 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:57,465 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:57,466 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:57,466 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:57,966 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:57,966 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:57,966 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:57,967 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:57,967 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:58,467 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:58,467 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:58,467 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:58,468 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:58,468 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:58,968 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:58,968 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:58,968 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:58,968 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:58,969 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:59,469 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:59,469 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:59,469 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:59,469 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:59,469 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:37:59,969 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:37:59,970 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:37:59,970 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:37:59,970 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:37:59,970 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:00,470 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:00,471 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:00,471 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:00,471 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:00,471 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:00,971 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:00,971 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:00,971 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:00,972 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:00,972 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:01,472 - __main__ - INFO - Stabilization progress: 80.2s elapsed, 9.8s remaining, 0/10 successful
+2025-08-19 18:38:01,472 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:01,472 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:01,472 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:01,473 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:01,473 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:01,973 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:01,973 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:01,973 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:01,974 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:01,974 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:02,474 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:02,474 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:02,474 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:02,474 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:02,474 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:02,975 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:02,975 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:02,975 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:02,975 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:02,975 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:03,475 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:03,476 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:03,476 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:03,476 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:03,476 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:03,976 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:03,976 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:03,976 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:03,977 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:03,977 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:04,477 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:04,477 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:04,477 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:04,478 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:04,478 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:04,978 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:04,978 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:04,978 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:04,979 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:04,979 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:05,479 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:05,479 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:05,479 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:05,480 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:05,480 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:05,980 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:05,980 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:05,980 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:05,980 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:05,980 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:06,481 - __main__ - INFO - Stabilization progress: 85.2s elapsed, 4.8s remaining, 0/10 successful
+2025-08-19 18:38:06,481 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:06,481 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:06,481 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:06,481 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:06,481 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:06,981 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:06,982 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:06,982 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:06,982 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:06,982 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:07,482 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:07,482 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:07,482 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:07,483 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:07,483 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:07,983 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:07,983 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:07,983 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:07,984 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:07,984 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:08,484 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:08,484 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:08,484 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:08,485 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:08,485 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:08,985 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:08,985 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:08,985 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:08,985 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:08,985 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:09,486 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:09,486 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:09,486 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:09,486 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:09,486 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:09,986 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:09,987 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:09,987 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:09,987 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:09,987 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:10,487 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:10,488 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:10,488 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:10,488 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:10,488 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:10,988 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:10,988 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:10,988 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:10,989 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:10,989 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:11,489 - __main__ - INFO - Stabilization complete: 180 commands sent, 0.0% success rate
+2025-08-19 18:38:11,489 - __main__ - WARNING - Device may not be in a fully stable state yet
+2025-08-19 18:38:11,489 - __main__ - WARNING - Device stabilization incomplete, continuing anyway
+2025-08-19 18:38:11,489 - __main__ - INFO - Sending enhanced initialization sequence...
+2025-08-19 18:38:11,489 - __main__ - INFO - Waiting 3 more seconds to ensure device is ready...
+2025-08-19 18:38:14,489 - __main__ - INFO - Sending direct F5 01 command (Initialize Display) command...
+2025-08-19 18:38:15,489 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:15,490 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:15,490 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:15,499 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:15,499 - __main__ - WARNING - Command failed with status 2
+2025-08-19 18:38:15,500 - __main__ - WARNING - Warning: F5 01 command (Initialize Display) command failed with status 2
+2025-08-19 18:38:15,500 - __main__ - INFO - Waiting 5 seconds for device to process F5 01 command (Initialize Display) command...
+2025-08-19 18:38:20,500 - __main__ - DEBUG - Writing 31 bytes directly to EP_OUT
+2025-08-19 18:38:20,500 - __main__ - DEBUG - Successfully wrote 31 bytes
+2025-08-19 18:38:20,500 - __main__ - DEBUG - Reading 13 bytes directly from EP_IN
+2025-08-19 18:38:20,501 - __main__ - DEBUG - Successfully read 13 bytes
+2025-08-19 18:38:20,501 - __main__ - WARNING - Command failed with status 1
+2025-08-19 18:38:20,501 - __main__ - ERROR - Failed to initialize display (F5 01)
+2025-08-19 18:38:20,501 - __main__ - INFO - Released USB interface
+2025-08-19 18:38:20,501 - __main__ - INFO - Disconnected from USB device
+2025-08-19 18:38:20,501 - __main__ - INFO - Program complete
