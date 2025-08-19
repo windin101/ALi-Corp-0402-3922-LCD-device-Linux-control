@@ -202,20 +202,38 @@ class LifecycleManager:
                 logger.info("Initial state set to Animation")
                 
             elif self.state == DeviceLifecycleState.ANIMATION:
-                # Check for transition to Connected
+                # Check for transition to Connecting
                 elapsed_time = (current_time - self.connection_time).total_seconds()
-                if elapsed_time > 56 and self.command_count > 100:
-                    self.state = DeviceLifecycleState.CONNECTING
-                    logger.info("Transition: Animation → Connecting (%.1f seconds)",
-                              elapsed_time)
+                
+                # Only transition if we've sent enough commands and enough time has passed
+                # The transition typically happens after ~56-58 seconds and 100+ commands
+                if elapsed_time > 50 and self.command_count > 80:
+                    # Calculate the success rate based on tag mismatches
+                    # In Animation state, tag mismatches are common
+                    tag_mismatch_rate = 0
+                    if hasattr(self.device, 'tag_monitor') and self.device.tag_monitor.total_count > 0:
+                        tag_mismatch_rate = self.device.tag_monitor.get_mismatch_rate()
+                    
+                    # If we're seeing tag mismatch rate dropping below 50%, we may be transitioning
+                    if tag_mismatch_rate < 0.5 and elapsed_time > 55:
+                        self.state = DeviceLifecycleState.CONNECTING
+                        logger.info("Transition: Animation → Connecting (%.1f seconds, %d commands, %.1f%% mismatches)",
+                                  elapsed_time, self.command_count, tag_mismatch_rate * 100)
                     
             elif self.state == DeviceLifecycleState.CONNECTING:
                 # Brief transitional state
                 elapsed_time = (current_time - self.connection_time).total_seconds()
-                if elapsed_time > 60:
+                
+                # Calculate the current tag mismatch rate
+                tag_mismatch_rate = 0
+                if hasattr(self.device, 'tag_monitor') and self.device.tag_monitor.total_count > 0:
+                    tag_mismatch_rate = self.device.tag_monitor.get_mismatch_rate()
+                
+                # If mismatch rate drops below 15%, we're likely in Connected state
+                if (tag_mismatch_rate < 0.15 and elapsed_time > 58) or elapsed_time > 65:
                     self.state = DeviceLifecycleState.CONNECTED
-                    logger.info("Transition: Connecting → Connected (%.1f seconds)",
-                              elapsed_time)
+                    logger.info("Transition: Connecting → Connected (%.1f seconds, %.1f%% mismatches)",
+                              elapsed_time, tag_mismatch_rate * 100)
                     
             elif self.state == DeviceLifecycleState.CONNECTED:
                 # Check for disconnection

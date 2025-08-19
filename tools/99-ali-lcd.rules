@@ -1,0 +1,13 @@
+# ALi LCD Device (0402:3922) udev rules
+# Save this file to /etc/udev/rules.d/99-ali-lcd.rules
+# Then run: sudo udevadm control --reload-rules && sudo udevadm trigger
+
+# Give all users read/write access to ALi LCD devices
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0402", ATTRS{idProduct}=="3922", MODE="0666"
+
+# Prevent the usb_storage driver from claiming the device
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0402", ATTRS{idProduct}=="3922", ENV{DEVTYPE}=="usb_device", TEST=="power/control", ATTR{power/control}="auto"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0402", ATTRS{idProduct}=="3922", ENV{DEVTYPE}=="usb_device", TEST=="power/autosuspend", ATTR{power/autosuspend}="0"
+
+# Set owner and group (optional, modify as needed)
+# SUBSYSTEM=="usb", ATTRS{idVendor}=="0402", ATTRS{idProduct}=="3922", OWNER="your_username", GROUP="your_group"

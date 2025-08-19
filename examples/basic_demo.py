@@ -65,7 +65,13 @@ def main():
     parser.add_argument('--image', help='Path to image file to display')
     parser.add_argument('--width', type=int, default=320, help='Display width')
     parser.add_argument('--height', type=int, default=320, help='Display height')
+    parser.add_argument('--debug', action='store_true', help='Enable debug logging')
     args = parser.parse_args()
+    
+    # Set debug logging if requested
+    if args.debug:
+        logging.getLogger().setLevel(logging.DEBUG)
+        logging.getLogger('ali_lcd_device').setLevel(logging.DEBUG)
     
     try:
         # Create device instance
@@ -73,34 +79,67 @@ def main():
         
         # Connect to the device
         print("Connecting to ALi LCD device...")
-        device.connect(wait_for_stable=True)
+        print("This will take about 60 seconds to reach the Connected state.")
+        print("Command failures during the Animation state are normal and expected.")
+        print("Press Ctrl+C at any time to exit.")
+        
+        try:
+            device.connect(wait_for_stable=True)
+        except KeyboardInterrupt:
+            print("\nConnection process interrupted by user.")
+            device.close()
+            return
+            
+        # Check if we reached the Connected state
+        if device.lifecycle_state != device.lifecycle_manager.state:
+            print(f"Warning: Internal state inconsistency detected.")
+            print(f"Device state: {device.lifecycle_state}, Manager state: {device.lifecycle_manager.state}")
+            
+        if device.lifecycle_state.name == 'CONNECTED':
+            print("Successfully reached Connected state!")
+        else:
+            print(f"Warning: Device is in {device.lifecycle_state.name} state, not Connected.")
+            print("Proceeding anyway, but commands may fail.")
         
         # Initialize the display
-        print("Initializing display...")
-        device.initialize_display()
+        print("\nInitializing display...")
+        if device.initialize_display():
+            print("Display initialized successfully.")
+        else:
+            print("Warning: Display initialization may have issues.")
         
         # Clear the screen
-        print("Clearing screen...")
-        device.clear_screen()
+        print("\nClearing screen...")
+        if device.clear_screen():
+            print("Screen cleared successfully.")
+        else:
+            print("Warning: Screen clear command may have issues.")
         
         # Display content
         if args.image:
             # Display image from file
-            print(f"Displaying image: {args.image}")
-            device.display_image(args.image)
+            print(f"\nDisplaying image: {args.image}")
+            if device.display_image(args.image):
+                print("Image displayed successfully.")
+            else:
+                print("Warning: Image display may have issues.")
         else:
             # Display test pattern
-            print(f"Displaying {args.pattern} pattern...")
-            display_test_pattern(device, args.pattern, args.width, args.height)
+            print(f"\nDisplaying {args.pattern} pattern...")
+            try:
+                display_test_pattern(device, args.pattern, args.width, args.height)
+                print("Pattern displayed successfully.")
+            except Exception as e:
+                print(f"Error displaying pattern: {str(e)}")
         
-        print("Display complete. Press Ctrl+C to exit.")
+        print("\nDisplay complete. Press Ctrl+C to exit.")
         
         # Keep the program running
         try:
             while True:
                 time.sleep(1)
         except KeyboardInterrupt:
-            print("Exiting...")
+            print("\nExiting...")
         
     except Exception as e:
         print(f"Error: {str(e)}")
@@ -108,7 +147,9 @@ def main():
     finally:
         # Close the device connection
         if 'device' in locals():
+            print("Closing device connection...")
             device.close()
+            print("Connection closed.")
 
 if __name__ == "__main__":
     main()

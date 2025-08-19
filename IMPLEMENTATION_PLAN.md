@@ -126,21 +126,32 @@ with ALiLCDDevice() as device:
 
 ### Common Issues
 
-1. **Permission Denied**
+1. **Command Failures During Animation State**
+   - This is normal and expected behavior
+   - The device is less responsive during the Animation state
+   - Commands will be retried automatically
+   - Wait approximately 60 seconds for the device to reach the Connected state
+
+2. **Permission Denied**
    - Ensure udev rules are set correctly
    - Try running with sudo to verify it's a permissions issue
+   - Check the rules are loaded: `sudo udevadm control --reload-rules`
 
-2. **Device Not Found**
+3. **Device Not Found**
    - Check the device is connected and recognized: `lsusb | grep 0402:3922`
    - Verify the kernel driver isn't claiming the device
+   - Try unplugging and reconnecting the device
 
-3. **Communication Errors**
+4. **Communication Errors**
+   - Run the diagnostic tool: `python tools/diagnostic.py`
    - In Animation state, wait ~60 seconds for stable communication
    - Use wait_for_stable=True when connecting
+   - Add `--debug` flag to enable verbose logging: `python examples/basic_demo.py --debug`
 
-4. **Tag Synchronization Issues**
+5. **Tag Synchronization Issues**
    - These are normal in certain states and handled automatically
    - If persistent, try reconnecting the device physically
+   - The diagnostic tool can help identify tag mismatch patterns
 
 ### Debug Mode
 

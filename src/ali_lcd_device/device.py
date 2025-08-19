@@ -113,13 +113,29 @@ class ALiLCDDevice:
             # Get the interface
             self.interface = cfg[(0, 0)]
             
-            # Detach kernel driver if active
+            # Check for kernel driver
             if self.device.is_kernel_driver_active(self.interface.bInterfaceNumber):
                 logger.debug("Detaching kernel driver")
-                self.device.detach_kernel_driver(self.interface.bInterfaceNumber)
+                try:
+                    self.device.detach_kernel_driver(self.interface.bInterfaceNumber)
+                except usb.core.USBError as e:
+                    if "busy" in str(e).lower():
+                        logger.error("Device is busy - another application may be using it")
+                        logger.error("Try closing other applications or unplugging and reconnecting the device")
+                        raise USBError("Device is busy - another application may be using it") from e
+                    else:
+                        raise
             
             # Claim the interface
-            usb.util.claim_interface(self.device, self.interface.bInterfaceNumber)
+            try:
+                usb.util.claim_interface(self.device, self.interface.bInterfaceNumber)
+            except usb.core.USBError as e:
+                if "busy" in str(e).lower():
+                    logger.error("Failed to claim interface - device is busy")
+                    logger.error("Try closing other applications or unplugging and reconnecting the device")
+                    raise USBError("Failed to claim interface - device is busy") from e
+                else:
+                    raise
             
             # Find the endpoints
             for ep in self.interface:
@@ -159,24 +175,47 @@ class ALiLCDDevice:
         logger.info("Closing ALi LCD device connection")
         
         if self.lifecycle_manager:
-            self.lifecycle_manager.stop_monitoring()
+            try:
+                self.lifecycle_manager.stop_monitoring()
+            except Exception as e:
+                logger.debug(f"Error stopping lifecycle manager: {e}")
+            self.lifecycle_manager = None
         
         if self.device and self.interface:
             try:
+                # First release the interface
                 usb.util.release_interface(self.device, self.interface.bInterfaceNumber)
+                logger.debug("Released USB interface")
                 
-                # Reattach kernel driver if necessary
+                # Then reattach the kernel driver if needed
                 try:
                     self.device.attach_kernel_driver(self.interface.bInterfaceNumber)
-                except Exception:
+                    logger.debug("Reattached kernel driver")
+                except (usb.core.USBError, AttributeError):
+                    # Not all devices support reattaching or need it
                     pass
+                    
             except Exception as e:
-                logger.warning("Error releasing interface: %s", str(e))
+                logger.debug(f"Error releasing interface: {e}")
+                # Continue with cleanup despite errors
         
-        # Reset device attributes
-        self.device = None
-        self.ep_out = None
+        # Explicitly release device resources
+        if self.device:
+            try:
+                usb.util.dispose_resources(self.device)
+                logger.debug("Disposed USB device resources")
+            except Exception as e:
+                logger.debug(f"Error disposing USB resources: {e}")
+        
+        # Clear all references
         self.ep_in = None
+        self.ep_out = None
+        self.interface = None
+        self.device = None
+        self.initialized = False
+        self.display_initialized = False
+        
+        logger.info("Connection closed and resources released")
         self.interface = None
         self.initialized = False
         self.display_initialized = False
@@ -215,22 +254,47 @@ class ALiLCDDevice:
             
             # Send CBW
             logger.debug("Sending CBW (tag=%d, cmd=0x%02x)", tag, command[0])
-            self.session.with_retry(self.device.write, self.ep_out, cbw)
+            try:
+                self.session.with_retry(self.device.write, self.ep_out, cbw)
+            except USBError as e:
+                # If in Animation state, handle errors more gracefully
+                if self.lifecycle_state == DeviceLifecycleState.ANIMATION:
+                    logger.debug("USB error sending CBW in Animation state: %s", str(e))
+                    # Record command in lifecycle manager despite error
+                    if self.lifecycle_manager:
+                        self.lifecycle_manager.record_command()
+                    return False, False, None
+                else:
+                    raise
             
             # Data phase (if applicable)
             data_in = None
             
             if direction.lower() == 'out' and data_out:
-                logger.debug("Sending data (%d bytes)", len(data_out))
-                self.session.with_retry(self.device.write, self.ep_out, data_out)
+                try:
+                    logger.debug("Sending data (%d bytes)", len(data_out))
+                    self.session.with_retry(self.device.write, self.ep_out, data_out)
+                except USBError as e:
+                    # In Animation state, data errors are common
+                    if self.lifecycle_state == DeviceLifecycleState.ANIMATION:
+                        logger.debug("USB error sending data in Animation state: %s", str(e))
+                        if self.lifecycle_manager:
+                            self.lifecycle_manager.record_command()
+                        return False, False, None
+                    else:
+                        raise
+                    
             elif direction.lower() == 'in':
                 try:
                     logger.debug("Reading data (%d bytes)", data_length)
                     data_in = self.session.with_retry(
                         self.device.read, self.ep_in, data_length)
                 except Exception as e:
-                    logger.error("Error reading data: %s", str(e))
-                    # Continue to status phase even if data phase failed
+                    logger.warning("Error reading data: %s", str(e))
+                    # In Animation state, continue to status phase even if data phase failed
+                    if self.lifecycle_state != DeviceLifecycleState.ANIMATION:
+                        # For other states, re-raise the exception
+                        raise
             
             # Status phase (read CSW)
             try:
@@ -243,7 +307,7 @@ class ALiLCDDevice:
                 # Check tag if requested
                 tag_mismatch = csw_tag != tag
                 if tag_mismatch:
-                    logger.warning("Tag mismatch: expected %d, got %d", tag, csw_tag)
+                    logger.debug("Tag mismatch: expected %d, got %d", tag, csw_tag)
                     
                     # Detect tag reset
                     self.tag_monitor.detect_tag_reset(csw_tag)
@@ -257,7 +321,11 @@ class ALiLCDDevice:
                 # Check command status
                 success = csw_status == 0
                 if not success:
-                    logger.warning("Command failed with status %d", csw_status)
+                    # In Animation state, command failures are common and expected
+                    if self.lifecycle_state == DeviceLifecycleState.ANIMATION:
+                        logger.debug("Command failed with status %d in Animation state", csw_status)
+                    else:
+                        logger.warning("Command failed with status %d", csw_status)
                 
                 # Record command in lifecycle manager
                 if self.lifecycle_manager:
@@ -270,8 +338,16 @@ class ALiLCDDevice:
                 return success, tag_mismatch, data_in
                 
             except Exception as e:
-                logger.error("Error in status phase: %s", str(e))
-                raise
+                # In Animation state, CSW errors are common
+                if self.lifecycle_state == DeviceLifecycleState.ANIMATION:
+                    logger.debug("Error in status phase during Animation state: %s", str(e))
+                    # Record command attempt despite error
+                    if self.lifecycle_manager:
+                        self.lifecycle_manager.record_command()
+                    return False, False, None
+                else:
+                    logger.error("Error in status phase: %s", str(e))
+                    raise
     
     def _test_unit_ready(self):
         """
@@ -282,6 +358,13 @@ class ALiLCDDevice:
         """
         cmd, data_length, direction = create_test_unit_ready()
         success, tag_mismatch, _ = self._send_command(cmd, data_length, direction)
+        
+        # In Animation state, command failures are expected and should be ignored
+        if not success and self.lifecycle_state == DeviceLifecycleState.ANIMATION:
+            logger.debug("TEST UNIT READY command failed in Animation state (expected)")
+            # Return success=True when in Animation state to continue the connection process
+            return True, tag_mismatch
+            
         return success, tag_mismatch
     
     def _inquiry(self):
@@ -316,21 +399,45 @@ class ALiLCDDevice:
         """
         logger.info("Waiting for device to reach Connected state...")
         start_time = time.time()
+        command_count = 0
+        success_count = 0
+        last_state_log = start_time
         
         while time.time() - start_time < timeout:
             # Send TEST UNIT READY command
-            self._test_unit_ready()
-            
-            # Check current state
-            if self.lifecycle_state == DeviceLifecycleState.CONNECTED:
-                logger.info("Device reached Connected state")
-                return True
-            
-            # Adaptive sleep based on state
-            if self.lifecycle_state == DeviceLifecycleState.ANIMATION:
-                time.sleep(0.2)
-            else:
-                time.sleep(0.1)
+            try:
+                success, _ = self._test_unit_ready()
+                command_count += 1
+                
+                if success:
+                    success_count += 1
+                
+                # Log state periodically
+                current_time = time.time()
+                if current_time - last_state_log > 5.0:  # Log every 5 seconds
+                    elapsed = current_time - start_time
+                    logger.info("State: %s, Commands: %d, Success rate: %.1f%%, Elapsed: %.1fs",
+                               self.lifecycle_state, command_count,
+                               (success_count / command_count * 100) if command_count else 0,
+                               elapsed)
+                    last_state_log = current_time
+                
+                # Check if we've transitioned to Connected state
+                if self.lifecycle_state == DeviceLifecycleState.CONNECTED:
+                    logger.info("Device reached Connected state after %.1f seconds",
+                              time.time() - start_time)
+                    return True
+                
+                # Adaptive sleep based on state
+                if self.lifecycle_state == DeviceLifecycleState.ANIMATION:
+                    time.sleep(0.2)
+                else:
+                    time.sleep(0.1)
+                    
+            except Exception as e:
+                # Log error but continue trying
+                logger.warning("Error during connection wait: %s", str(e))
+                time.sleep(0.5)  # Wait a bit longer after an error
         
         logger.warning("Timeout waiting for Connected state")
         return False

@@ -134,9 +134,73 @@ class RobustUSBSession:
         
         Args:
             device: The USB device
+            
+        Raises:
+            ResourceBusyError: If the device remains busy after all attempts
         """
-        # Nothing specific to do here, the retry with delay should handle it
-        logger.debug("Resource busy, waiting before retry")
+        logger.warning("Resource busy error detected. This typically means:")
+        logger.warning("1. Another process is using the device")
+        logger.warning("2. A kernel driver is still attached")
+        logger.warning("3. The device needs to be reset")
+        
+        # Try to detach kernel driver if that's the issue
+        try:
+            if not device or not device.is_kernel_driver_active:
+                logger.warning("Device is not accessible or missing is_kernel_driver_active method")
+                return
+                
+            # Get the current configuration
+            config = None
+            try:
+                config = device.get_active_configuration()
+            except usb.core.USBError:
+                logger.warning("Cannot get active configuration, device may be unconfigured")
+                # Try to set configuration
+                try:
+                    device.set_configuration()
+                    config = device.get_active_configuration()
+                except usb.core.USBError as e:
+                    logger.error(f"Failed to set configuration: {e}")
+                    raise ResourceBusyError("Device is busy and cannot be configured") from e
+            
+            # Try to find and detach from all interfaces
+            if config:
+                for interface in config:
+                    interface_num = interface.bInterfaceNumber
+                    if device.is_kernel_driver_active(interface_num):
+                        logger.info(f"Attempting to detach kernel driver from interface {interface_num}")
+                        try:
+                            device.detach_kernel_driver(interface_num)
+                            logger.info(f"Successfully detached kernel driver from interface {interface_num}")
+                        except usb.core.USBError as e:
+                            logger.error(f"Failed to detach kernel driver from interface {interface_num}: {e}")
+                            
+                    # Try to release and reclaim interface
+                    try:
+                        usb.util.release_interface(device, interface_num)
+                        logger.info(f"Released interface {interface_num}")
+                        usb.util.claim_interface(device, interface_num)
+                        logger.info(f"Reclaimed interface {interface_num}")
+                    except usb.core.USBError as e:
+                        logger.error(f"Failed to release/reclaim interface {interface_num}: {e}")
+            
+            # Try to reset the device as a last resort
+            try:
+                logger.info("Attempting to reset the device")
+                device.reset()
+                logger.info("Device reset successful")
+            except usb.core.USBError as e:
+                logger.error(f"Failed to reset device: {e}")
+                
+        except Exception as e:
+            logger.error(f"Error while handling busy device: {e}")
+            raise ResourceBusyError("Device is busy and cannot be accessed") from e
+        except Exception as e:
+            logger.debug("Error while trying to detach kernel driver: %s", str(e))
+        
+        # Sleep before retry
+        logger.debug("Waiting before retry")
+        time.sleep(self.retry_delay)
 
 
 def create_cbw(tag, data_length, direction, lun, command):
